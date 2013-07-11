@@ -1,4 +1,4 @@
-#####################Quick steps to syncing and build Evervolv#########################
+#####################Building Ubuntu Touch#########################
 
 Getting Started
 
@@ -51,9 +51,9 @@ Install Repo
 
 Now enter the following to initialize the repository:
 
-	cd ~/android/system/ 
+	cd ~/ubuntutouch
 
-	repo init -u git://github.com/Evervolv/android.git -b jellybean
+	repo init -u git://github.com/Ubuntuz/android.git
 
 Then to start the Sync. (This is gonna take awhile)
 
@@ -91,4 +91,4 @@ Next, we will build the actual ROM. You have a few build choices, described belo
 
 		make otapackage
 
-Completed! Your compiled Evervolv rom will be located in ~/android/system/out/target/product/INSERTPRODUCTHERE/ (the entire build is in /system if you did not use otapackage).
+Completed! Your compiled Ubuntu Touch Android Layer will be located in ~/android/system/out/target/product/INSERTPRODUCTHERE/ (the entire build is in /system if you did not use otapackage).
